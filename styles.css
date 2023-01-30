@@ -10,14 +10,6 @@ body {
     font-size: 24px;
 }
 
-.layout {
-    width: 100%;
-    height: 100vh;
-    padding: 16px;
-
-    display: grid;
-
-}
 
 .content {
     width: 100%;
@@ -25,6 +17,7 @@ body {
     background-color: #1E1E1E;
 
     display: grid;
+
 
 }
 
@@ -41,15 +34,9 @@ body {
     align-items: center;
 }
 
-.navbar {
-    width: 60px;
-    height: auto;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-}
 
 .header {
-    height: 60px;
+
 }
 
 .video {}
@@ -57,28 +44,12 @@ body {
 
 /* responsive */
 
-
-/* tablet */
 @media (max-width: 1023px) {
 
-    .layout {
-        /* grid-template-columns: 1fr; */
-    }
 
     .content {
         /* grid-template-columns: 1fr; */
     }
 
-    .header {
-        /* grid-column: span 1; */
-    }
 
-}
-
-/* mobile */
-@media (max-width: 767px) {
-
-    .navbar {
-        /* display: none; */
-    }
 }
